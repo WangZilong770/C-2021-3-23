@@ -1,0 +1,13 @@
+int main()
+{
+	int i = 1;
+	int n = 1;
+	scanf("%d", &n);//&取地址
+	int s = 1;
+	for (i = 1; i<=n ; i++)
+	{
+		s = s * i;
+	}
+	printf("n的阶乘为：%d\n", s);
+	return 0;
+}
